@@ -40,7 +40,7 @@ public class arrayCopy {
 		System.out.println("abc:"+abc); // 는 주소값이 나옴! 아래와 뭐가다르지..
 		System.out.println(abc);
 		System.out.println(num);
-		
+		//asdfasdfsdf
 		// 배열 abc와 num을 붙여서 하나의 배열로 만듬
 		char[] result = new char[abc.length + num.length];
 		System.arraycopy(abc, 0, result, 0, abc.length);
